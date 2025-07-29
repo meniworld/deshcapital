@@ -1,0 +1,119 @@
+:root {
+    /* Core Palette */
+    --color-background: #fef2ed;
+    --color-text: #080a09;
+
+    --color-primary: #4dbe8f;
+    --color-primary-hover: #3ca77a;
+
+    --color-secondary: #94e7c5;
+    --color-secondary-hover: #7edbb3;
+
+    --color-accent: #5beeb1;
+    --color-accent-hover: #47d6a0;
+
+    --color-success: #06923E;
+    --color-success-hover: #057933;
+
+    --color-warning: #FFB823;
+    --color-warning-hover: #e6a90f;
+
+    --color-error: #ff4500;
+    --color-error-hover: #cc3300;
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    /* Additional Neutrals */
+    --color-gray-100: #f3f4f6;
+    --color-gray-300: #d1d5db;
+    --color-gray-500: #6b7280;
+
+    /* Base Settings */
+    --btn-radius: 8px;
+    --btn-font-size: 1rem;
+    --btn-padding: 0.6rem 1.4rem;
+    --btn-transition: all 0.3s ease;
+    --btn-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-background);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Base Button */
+.btn {
+    display: inline-block;
+    font-size: var(--btn-font-size);
+    padding: var(--btn-padding);
+    border: none;
+    border-radius: var(--btn-radius);
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--btn-transition);
+    box-shadow: var(--btn-shadow);
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Variants */
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-secondary-hover);
+}
+
+.btn-accent {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+}
+
+.btn-accent:hover {
+    background-color: var(--color-accent-hover);
+}
+
+.btn-success {
+    background-color: var(--color-success);
+    color: var(--color-white);
+}
+
+.btn-success:hover {
+    background-color: var(--color-success-hover);
+}
+
+.btn-warning {
+    background-color: var(--color-warning);
+    color: var(--color-white);
+}
+
+.btn-warning:hover {
+    background-color: var(--color-warning-hover);
+}
+
+.btn-error {
+    background-color: var(--color-error);
+    color: var(--color-white);
+}
+
+.btn-error:hover {
+    background-color: var(--color-error-hover);
+}
